@@ -1,0 +1,238 @@
+body{
+    background-color:transparent;
+    font-family: cursive;
+    color:transparent;
+    margin: 0;
+    padding: 0;
+    height: 950px;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+  }
+  
+  header {
+    background-color:#030A04;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+  
+  nav ul li a {
+    text-decoration-line: underline;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'sans-serif;';
+  }
+  
+  section#content {
+    background-color: rgba(34, 29, 31, 0.64);
+    padding: 50px;
+    text-align: center;
+    height: 800px;
+  }
+  
+  section#content h3, section#content p {
+    color: white;
+
+  }
+
+  h1 {
+    font-family: 'normal';
+    font-size: 100px;
+    font-weight: bold;
+    color:#FF5412;
+  }
+
+  h2 {
+    font-family: 'sans-serif;';
+    font-size: 36px;
+    font-weight: bold;
+    color:White ;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5412;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #A47551;
+  }
+
+  footer {
+    background-color: #030A04;
+    padding: 20px;
+    text-align: center;
+    font-family: 'sans-serif;';
+    font-size: 14px;
+    color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media a {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .subscribe-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .subscribe-button {
+    padding: 5px 10px;
+    background-color: #FF5412;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center; /* Center the grid items horizontally */
+  }
+  
+  .product {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .product-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .product:hover .product-text {
+    opacity: 1;
+  }
+  
+  .social-media-icons a i {
+    color: white;
+    font-size: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-media-icons a:hover i {
+    transform: rotate(360deg);
+  }
+
+  .video-container {
+    width: 80%;
+    height: 0;
+    padding-bottom: 45%;
+    position: relative;
+    margin: 20px auto; 
+  }  
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Table styles */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    color: black;
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: #f9f9f9;
+  }
+  
+  /* White lines separating cells */
+  table tr:not(:last-child) td {
+    border-bottom: 1px solid white;
+  }
+  
+  table tr td:not(:last-child) {
+    border-right: 1px solid white;
+  }
+
+  table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+
+  
+
